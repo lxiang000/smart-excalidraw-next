@@ -134,6 +134,18 @@ SERVER_LLM_MODEL=claude-sonnet-4-5-20250929
 - 统一管理 API 使用和成本
 - 适合团队或组织内部使用
 - 提供免费体验给用户
+访问 http://localhost:3000 即可使用。
+
+## Docker compose 部署
+```bash
+# 克隆项目
+git clone <your-repo-url>
+cd smart-excalidraw-next
+#启动项目
+docker compose up -d
+```
+访问 http://localhost:3000 即可使用。
+
 
 ## ❓ 常见问题
 
